@@ -1,0 +1,237 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+ 
+  .Navanchor:hover
+  {
+    font-size: 25px;
+    border: 1px solid transparent ;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.8ms;
+  }
+  p
+  {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: parastyle;
+    src: url(/Web-font/Rye/Rye-Regular.ttf);
+  }
+  p:hover
+  {
+    font-family: parastyle;
+    transition: 0.9s;
+    font-size: 22px;
+  }
+  h1:hover
+  {
+    font-size: 50px;
+    color: rgb(68, 13, 119);
+    transition: 0.8s;
+  }
+  .BacktoTop
+  {
+    font-size: 25px;
+    float: right;
+  }
+  .ABClogoimg
+  {
+    border-radius: 50px;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+  }
+  footer
+ {
+   background-color: rgb(54, 15, 92);
+ }
+  /*===== Header start =====  */
+  .carouselimg
+  {
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 600px;
+  }
+ .carouseldiv
+ {
+    margin-top:300px ;
+    margin-left: 100px;
+    color: white;
+ }
+ nav
+ {
+  height: 100px;
+  margin-top: none;
+  font-size: 25px;
+  font-style: italic;
+}
+span
+{
+  color:white;
+  font-weight: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 60px;
+}
+h1
+{
+  text-align: center;
+}
+
+nav a
+{
+  display: flex;
+  text-decoration: none;
+}
+ /* ===== Header end ===== */
+
+   
+/*==== Home page ====*/
+#bookfreeclass
+{
+  background-image: url(Images/methodology1.jpg);
+  background-size: cover;
+  opacity: 0.8;
+}
+#bookfreeclass p
+{
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+h3
+{
+  color:rgb(75, 9, 75) ;
+  font-size: 50px;
+  padding: 20px;
+
+}
+ul, li 
+{
+  color: white;
+  display: flex;
+  margin: 10px;
+  font-weight: bold;
+
+}
+/* ==== About page ==== */
+
+/*----Advantage section ----*/
+.advantage
+{
+  height: 200px;
+  width: 200px;
+  border: 2px solid transparent;
+  border-radius: 100px;
+}
+.advantage:hover
+{
+  height: 250px;
+  width: 250px;
+  border-radius: 150px;
+}
+
+/* ==== Login page ====*/
+#Loginimg
+{
+  background-image: url(Images/loginbackimg.png);
+  background-size: contain;
+  height: 600px;
+}
+
+/*----login section----*/    
+.Admin
+{
+  margin: 0px auto;
+  width: 300px;
+}
+
+ /* ===== Gallary page ===== */
+ #Gallaryimg
+ {
+  background-image: url(Images/ga.jfif);
+  background-size: cover;
+  height: 650px;
+ }
+  h5
+  {
+    font-size: 30px;
+    color: grey;
+    text-align: center;
+  }
+  .gallaryimg
+  {
+    height: 320px;
+    width: 320px;
+    border: 2px solid transparent;
+    margin-top: 5px;
+  }
+  .gallaryimg:hover
+  {
+   background-color:rgb(246, 221, 246);
+   border: 2px solid transparent;
+   transform: scaleX(1.3);
+   /* transition-property: all;
+   transition-duration: 7s;
+   transition-timing-function: ; */
+  }
+  hr
+  {
+    color: rgb(52, 6, 95);
+  }
+
+/*====Contact page css==*/
+#contactimg
+{
+  background-image: url(Images/Contact.jpg);
+  opacity: 0.9;
+  background-size: cover;
+  height: 600px;
+}
+ table ,tr,td
+ {
+  width: ;
+  border: 2px solid grey;
+  padding: 10px;
+  margin-left: 50em;
+ }
+
+ /* =====Review page =====*/
+ @font-face 
+ {
+  font-family: review;
+  src: url(/Web-font/Bebas_Neue/);
+ }
+ .studentreview
+ {
+  background-image: url(Images/review-cardimg.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: review;
+  
+  text-align: right;
+ }
+
+ /*=====About page====*/
+ #Aboutimg
+ {
+  background-image: url(Images/aboutpageback.jpg);
+  height: 40.7rem;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+ }
+
+ /* =====Registration page =====*/
+
+ #Registrationimg
+ {
+  background-image: url(Images/registerbackimg.jfif);
+  background-size: cover;
+  height: 600px;
+ }
+
+ 
